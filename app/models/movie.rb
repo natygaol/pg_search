@@ -1,4 +1,4 @@
-class Movie < ApplicationRecord
+lsclass Movie < ApplicationRecord
   belongs_to :director
 
   include PgSearch::Model
